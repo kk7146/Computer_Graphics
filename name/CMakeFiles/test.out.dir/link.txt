@@ -1,0 +1,1 @@
+g++  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/test.out.dir/main.cpp.o -o test.out   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib -lglut.3 -framework OpenGL -framework OpenGL
